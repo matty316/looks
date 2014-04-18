@@ -2,6 +2,11 @@
 
 This is a webapp for bragging about stuff you bought
 
+Version 2 differences
+* Using Devise for authentication.
+* Using Bourbon instead of Bootstrap
+* Using Carrierwave instead of Paperclip for images
+
 Todo
 * Favorite and Like items
 * Follow other users
@@ -13,17 +18,21 @@ Todo
 * Admin Users
 * Make it not look ugly
 * Take picture from webcam (maybe)
-* Add images to items
 * Direct messages (maybe)
 * Ratings
-* Welcome email, mailers and mad mimi for newsletter
+* Welcome email, mailers and mad mimi or mailchimp for newsletter
 * Ajax
 * Items
 * Item images
-* Image resizing
+* Use cloud image storage in production
+* Create logo and icons
+* Blog
+* Static pages
+* Contact form
 
 Done
 * Users
 * Authentication
 * User images
 * Separate homepages for new and signed in users
+* Image resizing

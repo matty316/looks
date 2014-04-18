@@ -18,6 +18,12 @@
 @import "neat";
 @import "home";
 
+/* Global Styles
+=================*/
+body {
+  margin: 0;
+}
+
 /* Navigation
 =================*/
 
@@ -286,4 +292,11 @@ header.navigation {
     max-width: 35em;
     text-align: center;
   }
+}
+
+/* Grid
+====================*/
+
+.grid {
+  @include outer-container;
 }
