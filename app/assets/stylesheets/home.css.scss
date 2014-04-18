@@ -14,6 +14,7 @@
 	background-position: top;
 	background-size: cover;
 	padding-bottom: 4em;
+	margin-bottom: 10px;
 
 	.hero-logo img {
 		height: 3em;
@@ -66,7 +67,7 @@
   $icon-bullet-size: 3.5em;
 
   overflow: auto;
-  margin-bottom: $base-line-height;
+  margin-bottom: 0;
 
 
 // change ".three-col-bullet" class to this for two bullet layout
@@ -126,4 +127,14 @@
     border-bottom: 1px solid transparentize($base-font-color, .8);
     display: inline-block;
   }
+}
+
+/* Profile Page
+=====================*/
+
+.user-area {
+	@include span-columns(3);
+}
+.item-area {
+	@include span-columns(9);
 }

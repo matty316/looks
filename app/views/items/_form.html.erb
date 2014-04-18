@@ -1,0 +1,17 @@
+<%= form_for([@user, Item.new], html: { multipart: true } ) do |f| %>
+
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :description %>
+  <%= f.text_area :description %>
+
+  <%= f.label :store %>
+  <%= f.text_field :store %>
+
+  <%= f.label :image %>
+  <%= f.file_field :image %>
+
+  <%= f.submit "Add Item" %>
+
+<% end %>

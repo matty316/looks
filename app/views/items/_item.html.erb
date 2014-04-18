@@ -1,0 +1,9 @@
+<li>
+  <%= item.name %><br>
+  <%= image_tag item.image_url(:medium) %><br>
+  <%= item.description %><br>
+  <%= item.store %><br>
+  Created <%= time_ago_in_words(item.created_at) unless item.created_at.blank? %> ago <br>
+  <%= link_to "Delete Item", [@user, item], method: :delete, data: { confirm: "Are you sure?" } %>
+
+</li>

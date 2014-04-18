@@ -1,9 +1,22 @@
 <% provide(:title, " ") %>
 <% if user_signed_in? %>
 
-	<h2><%= @user.username %></h2>
-	<%= image_tag @user.image.url(:medium) %>
-	<%= link_to "Edit profile", edit_user_registration_path %>
+	<div class="user-area">
+		<h2><%= @user.username %></h2>
+		<%= image_tag @user.image.url(:medium) %>
+		<%= render 'items/form' %>
+		<p><%= link_to "Edit profile", edit_user_registration_path %></p>
+	</div>
+	<div class="item-area">
+		<% if @items.count == 0 %>
+			<h2>You have no items!</h2>
+		<% else %>
+			<h2>You have <%= pluralize(@items.count, "item") %>.</h2>
+			<ul>
+				<%= render @items %>
+			</ul>
+		<% end %>
+	</div>
 
 <% else %>
 <div class="hero">
