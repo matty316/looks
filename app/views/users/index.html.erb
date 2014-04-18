@@ -1,0 +1,6 @@
+<% provide(:title, "All Users") %>
+<ul>
+  <% @users.each do |user| %>
+    <li class="block"><%= image_tag user.image.url(:medium) %></li>
+  <% end %>
+</ul>

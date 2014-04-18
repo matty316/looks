@@ -26,6 +26,7 @@ Todo
 * Blog
 * Static pages
 * Contact form
+* Link to buy item
 
 Done
 * Users

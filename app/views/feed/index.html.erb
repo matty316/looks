@@ -1,5 +1,6 @@
+<% provide(:title, "Feed") %>
 <ul>
   <% @items.each do |item| %>
-    <li><%= image_tag item.image.url(:medium) %></li>
+    <li class="block"><%= image_tag item.image.url(:medium) %></li>
   <% end %>
 </ul>
