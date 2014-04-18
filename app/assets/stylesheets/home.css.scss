@@ -1,3 +1,129 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Hero Area
+=====================*/
+.hero {
+	$hero-background: desaturate(darken($base-accent-color, 20), 30);
+	$hero-color: white;
+
+	background: url(https://raw.github.com/Magnus-G/Random/master/lake-transparent.png);
+	background-color: $hero-background;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding-bottom: 4em;
+
+	.hero-logo img {
+		height: 3em;
+		margin-bottom: 1em;
+	}
+
+	.hero-inner {
+		@include outer-container;
+		@include clearfix;
+		padding: 3em;
+		margin: auto;
+		text-align: center;
+		color: $hero-color;
+
+		button {
+			@include button(simple, white);
+			font-size: $base-font-size;
+			outline: none;
+		}
+
+		.hero-copy {
+			text-align: center;
+
+			h1 {
+				font-size: 1.4em;
+				margin-bottom: .2em;
+
+				@include media($large-screen) {
+					font-size: 1.8em;
+				}
+			}
+
+			p {
+				margin: auto;
+				margin-bottom: 3em;
+				font-weight: 200;
+
+				@include media($large-screen) {
+					font-size: 1.2em;
+					max-width: 40%;
+				}
+			}
+		}
+	}
+}
+
+/* Icon Bullets
+======================*/
+.bullets {
+  $icon-bullet-size: 3.5em;
+
+  overflow: auto;
+  margin-bottom: $base-line-height;
+
+
+// change ".three-col-bullet" class to this for two bullet layout
+  .two-col-bullet {
+    @include media($large-screen) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
+  }
+
+  .three-col-bullet {
+    @include media($large-screen) {
+      @include span-columns(4);
+      @include omega(3n);
+    }
+  }
+
+
+// change ".three-col-bullet" class to this for four bullet layout
+  .four-col-bullet {
+    @include media($large-screen) {
+      @include span-columns(3);
+      @include omega(4n);
+    }
+  }
+
+  .bullet-icon {
+    float: left;
+    background: $base-accent-color;
+    padding: $icon-bullet-size /4;
+    border-radius: 50%;
+    width: $icon-bullet-size;
+    height: $icon-bullet-size;
+  }
+
+  .bullet-icon-1 {
+    background: $base-accent-color;
+  }
+
+  .bullet-icon-2 {
+    background: adjust-hue($base-accent-color, -50);
+  }
+
+  .bullet-icon-3 {
+    background: adjust-hue($base-accent-color, -140);
+  }
+
+  .bullet-content {
+    margin-left: $icon-bullet-size *1.4;
+    margin-bottom: 2em;
+  }
+
+  h2 {
+    font-size: $icon-bullet-size /2.5;
+    padding-top: $icon-bullet-size /7;
+    margin-bottom: $icon-bullet-size /6;
+    border-bottom: 1px solid transparentize($base-font-color, .8);
+    display: inline-block;
+  }
+}
