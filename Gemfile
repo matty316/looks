@@ -9,6 +9,7 @@ gem 'bourbon'
 gem 'neat'
 gem 'bitters'
 gem 'carrierwave'
+gem "mini_magick"
 
 
 gem 'pg'

@@ -2,7 +2,7 @@
 <% if user_signed_in? %>
 
 	<h2><%= @user.username %></h2>
-	<%= image_tag @user.image.url.to_s %>
+	<%= image_tag @user.image.url %>
 	<%= link_to "Edit profile", edit_user_registration_path %>
 
 <% else %>

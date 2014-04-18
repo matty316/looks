@@ -11,18 +11,19 @@ Todo
 * Categories
 * Sharing on social networks
 * Admin Users
-* Item Images
 * Make it not look ugly
 * Take picture from webcam (maybe)
 * Add images to items
-* Separate homepages for new and signed in users
 * Direct messages (maybe)
 * Ratings
 * Welcome email, mailers and mad mimi for newsletter
 * Ajax
 * Items
-* Upload images
+* Item images
+* Image resizing
 
 Done
 * Users
 * Authentication
+* User images
+* Separate homepages for new and signed in users
