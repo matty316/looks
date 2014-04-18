@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  before_save: { username.downcase }
+  before_save { username.downcase }
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
@@ -10,5 +10,5 @@ class User < ActiveRecord::Base
             length: { minimum: 4 },
             uniqueness: { case_sensitive: false }
 
-  mount_uploader: :image, ProfilePictureUploader
+  mount_uploader :image, ProfilePictureUploader
 end

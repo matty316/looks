@@ -1,4 +1,11 @@
 <% provide(:title, " ") %>
+<% if user_signed_in? %>
+
+	<h2><%= @user.username %></h2>
+	<%= image_tag @user.image.url.to_s %>
+	<%= link_to "Edit profile", edit_user_registration_path %>
+
+<% else %>
 <div class="hero">
 	<div class="hero-inner">
     <a href="" class="hero-logo"><img src="https://raw.github.com/Magnus-G/Random/master/placeholder_logo_1.png" alt=""></a>
@@ -38,3 +45,4 @@
     </div>
   </div>
 </div>
+<% end %>
