@@ -138,3 +138,23 @@
 .item-area {
 	@include span-columns(9);
 }
+ul {
+	@include clearfix;
+}
+li.profile {
+	@include span-columns(3 of 9);
+	@include omega(3n);
+	position: relative;
+	p {
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		font-size: 25px;
+		color: white;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin: 0;
+	}
+}

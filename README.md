@@ -27,6 +27,8 @@ Todo
 * Static pages
 * Contact form
 * Link to buy item
+* Hover effects for item images
+* Item pages
 
 Done
 * Users
