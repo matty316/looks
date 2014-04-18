@@ -1,8 +1,8 @@
-# Look at what I just bought! (Project for my CS class/fun) Version 2
+# Look at what I just bought! (Project for my CS class/fun) Version 0.2
 
 This is a webapp for bragging about stuff you bought
 
-Version 2 differences
+Version 0.2 differences
 * Using Devise for authentication.
 * Using Bourbon instead of Bootstrap
 * Using Carrierwave instead of Paperclip for images
@@ -29,6 +29,8 @@ Todo
 * Link to buy item
 * Hover effects for item images
 * Item pages
+* JSON API
+* Color Flash messages
 
 Done
 * Users
