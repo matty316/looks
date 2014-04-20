@@ -10,6 +10,7 @@ gem 'neat'
 gem 'bitters'
 gem 'carrierwave'
 gem "mini_magick"
+gem 'rails_12factor'
 
 
 gem 'pg'
