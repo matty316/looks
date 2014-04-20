@@ -21,7 +21,6 @@ Todo
 * Ratings
 * Welcome email, mailers and mad mimi or mailchimp for newsletter
 * Ajax
-* Use cloud image storage in production
 * Create logo and icons
 * Blog
 * Static pages
@@ -42,3 +41,4 @@ Done
 * Items
 * Item images
 * Items feed
+* Use cloud image storage in production
