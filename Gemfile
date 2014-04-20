@@ -11,6 +11,7 @@ gem 'bitters'
 gem 'carrierwave'
 gem "mini_magick"
 gem 'rails_12factor'
+gem 'fog'
 
 
 gem 'pg'
