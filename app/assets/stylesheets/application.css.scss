@@ -17,6 +17,7 @@
 @import "bitters/bitters";
 @import "neat";
 @import "home";
+@import "feed";
 
 /* Global Styles
 =================*/
@@ -297,7 +298,6 @@ header.navigation {
   @include outer-container;
   margin-bottom: 10px;
 }
-
 li {
     &.block {
       @include span-columns(3);
