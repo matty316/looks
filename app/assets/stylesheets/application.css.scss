@@ -239,27 +239,23 @@ header.navigation {
   .footer-links {
     @include clearfix;
     margin-bottom: $base-line-height;
-
-    @include media($medium-screen) {
-      @include shift(3);
-    }
+    text-align: center;
   }
 
   ul {
     margin-bottom: $base-line-height*2;
 
     @include media($medium-screen) {
-      @include span-columns(3);
+      @include span-columns(4);
       @include omega(3n);
       @include clearfix;
     }
   }
 
   li {
-    text-align: center;
 
     @include media($medium-screen) {
-      text-align: left;
+      text-align: center;
     }
   }
 
