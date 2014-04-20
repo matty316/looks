@@ -8,8 +8,9 @@ $ ->
     e.preventDefault()
     menu.slideToggle ->
       menu.removeAttr "style"  if menu.is(":hidden")
-      return
 
-    return
-
-  return
+  image = $(".profile")
+  image.mouseenter ->
+    $(this).find(".hover").fadeIn()
+  .mouseleave ->
+    $(this).find(".hover").fadeOut()

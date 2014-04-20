@@ -129,7 +129,7 @@
   }
 }
 
-/* Profile Page
+/* Home Profile Page
 =====================*/
 
 .user-area {
@@ -145,7 +145,8 @@ li.profile {
 	@include span-columns(3 of 9);
 	@include omega(3n);
 	position: relative;
-	p {
+	div.hover {
+		display: none;
 		text-align: center;
 		position: absolute;
 		top: 0;
