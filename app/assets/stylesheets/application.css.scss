@@ -239,8 +239,9 @@ header.navigation {
 
   .footer-links {
     @include clearfix;
-    margin-bottom: $base-line-height;
     text-align: center;
+    max-width: 600px;
+    margin: 0 auto $base-line-height auto;
   }
 
   ul {

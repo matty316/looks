@@ -1,5 +1,5 @@
-<li class="profile">
-  <%= link_to([@user, item]) do %>
+<li class="item">
+  <%= link_to([item.user, item]) do %>
     <%= image_tag item.image_url(:medium), id: "item_image" %>
     <div class="hover">
       <h4><%= item.name %></h4>

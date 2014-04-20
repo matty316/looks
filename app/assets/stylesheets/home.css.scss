@@ -141,12 +141,12 @@
 ul {
 	@include clearfix;
 }
-li.profile {
+li.item {
 	@include span-columns(3 of 9);
 	@include omega(3n);
 	position: relative;
 	div.hover {
-		display: none;
+		opacity: 0;
 		text-align: center;
 		position: absolute;
 		top: 0;
@@ -157,5 +157,9 @@ li.profile {
 		color: white;
 		background-color: rgba(0, 0, 0, 0.5);
 		margin: 0;
+		@include transition(opacity 0.3s ease-in);
+		&:hover {
+			opacity: 1.0;
+		}
 	}
 }
