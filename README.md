@@ -28,7 +28,8 @@ Todo
 * Contact form
 * Link to buy item
 * Hover effects for item images
-* Item pages
+* Item detail pages
+* User profile page
 * JSON API
 * Color Flash messages
 
