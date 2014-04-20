@@ -27,7 +27,7 @@ Todo
 * Static pages
 * Contact form
 * Link to buy item
-* Hover effects for item images
+* Hover effects for item images and users
 * Item detail pages
 * User profile page
 * JSON API
