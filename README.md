@@ -31,6 +31,7 @@ Todo
 * User profile page
 * JSON API
 * Color Flash messages
+* Cute Images
 
 Done
 * Users
