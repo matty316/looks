@@ -32,6 +32,7 @@ Todo
 * JSON API
 * Color Flash messages
 * Cute Images
+* Recommender system
 
 Done
 * Users
