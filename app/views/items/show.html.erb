@@ -1,2 +1,10 @@
-<h1>Items#show</h1>
-<p>Find me in app/views/items/show.html.erb</p>
+<%= provide(:title, @item.name) %>
+
+<div class="item">
+  <h1><%= @item.name %></h1>
+  <h3><%= @item.store %></h3>
+  <%= image_tag @item.image.url %>
+  <p>
+    <%= @item.description %>
+  </p>
+</div>

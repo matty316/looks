@@ -33,6 +33,7 @@ Todo
 * Color Flash messages
 * Cute Images
 * Recommender system
+* Maybe allow purchases from site
 
 Done
 * Users
