@@ -1,4 +1,4 @@
-# Look at what I just bought! (Project for my CS class/fun) Version 0.2
+# Looks! (Project for my CS class/fun) Version 0.2
 
 This is a webapp for bragging about stuff you bought
 
