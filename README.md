@@ -1,4 +1,4 @@
-# Looks! (Project for my CS class/fun) Version 0.2
+# Shopping Brags! (Project for my CS class/fun) Version 0.2
 
 This is a webapp for bragging about stuff you bought
 
@@ -34,6 +34,8 @@ Todo
 * Cute Images
 * Recommender system
 * Maybe allow purchases from site
+* Survey of interests, preferences, and prefered categories on sign up 
+* Filters for different types of items
 
 Done
 * Users
