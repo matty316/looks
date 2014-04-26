@@ -8,11 +8,14 @@
         <li><%= link_to 'Feed', feed_path %></li>
         <li><%= link_to 'Users', users_path %></li>
         <li class="navigation-search-bar">
-          <%= form_tag(search_path, method: "get") do %>
-            <%= label_tag(:q, "Search for:") %>
-            <%= text_field_tag(:q) %>
-            <%= submit_tag("Search") %>
-          <% end %>
+          <div class="search-bar">
+            <div class="search-and-submit">
+              <%= form_tag(search_path, method: "get") do %>
+                <%= search_field_tag :q, "Search..." %>
+                <%= button_tag "#{image_tag "https://raw.githubusercontent.com/Magnus-G/Random/master/search-icon.png"}".html_safe , type: "submit" %>
+              <% end %>
+            </div>
+          </div>
         </li>
         <% if user_signed_in? %>
           <li class="sign-up"><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
