@@ -34,7 +34,7 @@ Todo
 * Cute Images
 * Recommender system
 * Maybe allow purchases from site
-* Survey of interests, preferences, and prefered categories on sign up 
+* Survey of interests, preferences, and prefered categories on sign up
 * Filters for different types of items
 
 Done
@@ -47,3 +47,4 @@ Done
 * Item images
 * Items feed
 * Use cloud image storage in production
+* Search for items

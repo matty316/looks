@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   get '/contact', to: 'home#contact'
 
   root 'home#index'
-  get '/search', to: 'search#index'
+  get '/search', to: 'items#search'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -32,6 +32,10 @@ class ItemsController < ApplicationController
     redirect_to root_path
   end
 
+  def search
+    @items = Item.search(params[:search])
+  end
+
   private
 
     def item_params
