@@ -34,7 +34,7 @@ Todo
 * Cute Images
 * Recommender system
 * Maybe allow purchases from site
-* Survey of interests, preferences, and prefered categories on sign up
+* Survey of interests, preferences, and preferred categories on sign up
 * Filters for different types of items
 
 Done
@@ -48,3 +48,8 @@ Done
 * Items feed
 * Use cloud image storage in production
 * Search for items
+
+What's in store for version 0.3
+* Testing
+* Possible a move back to bootstrap or foundation
+* Also probably most of those todos
