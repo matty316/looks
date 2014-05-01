@@ -51,6 +51,6 @@ Done
 
 What's in store for version 0.3
 * Testing (rspec)
-* Possible a move back to bootstrap or foundation
+* Move back to bootstrap
 * Simpleform
 * Also probably most of those todos
