@@ -50,6 +50,7 @@ Done
 * Search for items
 
 What's in store for version 0.3
-* Testing
+* Testing (rspec)
 * Possible a move back to bootstrap or foundation
+* Simpleform
 * Also probably most of those todos
