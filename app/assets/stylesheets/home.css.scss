@@ -145,6 +145,7 @@ li.item {
 	@include span-columns(3 of 9);
 	@include omega(3n);
 	position: relative;
+	overflow: hidden;
 	div.hover {
 		opacity: 0;
 		text-align: center;
@@ -152,14 +153,28 @@ li.item {
 		top: 0;
 		left: 0;
 		right: 0;
-		bottom: 5px;
+		bottom: 0;
 		font-size: 25px;
 		color: white;
 		background-color: rgba(0, 0, 0, 0.5);
 		margin: 0;
-		@include transition(opacity 0.3s ease-in);
+		@include transition(all 0.3s ease-in);
 		&:hover {
 			opacity: 1.0;
+		}
+	}
+	img {
+		display: block;
+		@include transition(all 0.3s ease-in);
+
+	}
+	&:hover {
+		img {
+			-webkit-transform: scale(1.1);
+			-moz-transform:    scale(1.1);
+			-ms-transform:     scale(1.1);
+			-o-transform:      scale(1.1);
+			transform:         scale(1.1);
 		}
 	}
 }
