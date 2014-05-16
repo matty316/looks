@@ -6,3 +6,7 @@
 <% if @user == current_user %>
   <%= link_to "Edit profile", edit_user_registration_path(@user) %>
 <% end %>
+<section>
+  <%= render 'shared/stats' %>
+  <%= render 'follow_form' if signed_in? %>
+</section>

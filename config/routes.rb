@@ -5,7 +5,13 @@ Rails.application.routes.draw do
 
   resources :users do
     resources :items
+    member do
+      get :following, :followers
+    end
   end
+
+  resources :relationships, only: [:create, :destroy]
+
   get '/', to: 'home#index'
 
   get '/about', to: 'home#about'

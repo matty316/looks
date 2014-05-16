@@ -9,7 +9,6 @@ Version 0.2 differences
 
 Todo
 * Favorite and Like items
-* Follow other users
 * Search for items and users
 * Show popular items
 * Categories
@@ -48,6 +47,8 @@ Done
 * Items feed
 * Use cloud image storage in production
 * Search for items
+* Follow other users
+
 
 What's in store for version 0.3
 * Testing (rspec)
